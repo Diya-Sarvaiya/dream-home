@@ -374,8 +374,8 @@ select {
 .choose-card {
   background-color: var(--clr-primary-900);
   border-radius: 18px;
-  height: 17rem;
-  width: 17rem;
+
+  width: 17vw;
   overflow: auto;
   text-align: left;
   padding: 2.5%;
@@ -386,14 +386,71 @@ select {
   border-radius: 8px;
   height: 4rem;
   width: 4rem;
-  padding: var(--fs-400);
+  /* max-width: 4rem;
+  max-height: 4rem; */
+  padding: var(--fs-200);
 
 }
 
 .choose-card-list {
   display: flex;
-  gap: 3rem;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5vh;
 }
+
+/* Residence section */
+
+.residence-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--fs-100);
+
+}
+
+.residence-card {
+  border-radius: 18px;
+  background-color: var(--clr-primary-900);
+  overflow: hidden;
+  width: 19rem;
+  height: 25rem;
+}
+
+.residence-card-img {
+  height: 65%;
+}
+
+.residence-location {
+  margin: 1%;
+}
+
+.residence-name {
+
+  display: flex;
+  gap: .3rem;
+  align-items: center;
+}
+
+.sm-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+}
+
+.residence-info {
+  padding: 2% 5%;
+  border: 1px solid red;
+}
+
+.resi-btn {
+  float: left;
+}
+
+.resi-detail-box {}
 
 /* utility classes */
 
@@ -415,6 +472,11 @@ select {
 
 .ff-primary {
   font-family: "Montserrat", sans-serif;
+}
+
+.fs-extra-sm {
+  font-size: var(--fs-100);
+  line-height: 1.2;
 }
 
 .fs-primary-heading {
