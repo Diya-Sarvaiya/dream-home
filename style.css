@@ -605,6 +605,9 @@ select {
   /* max-width: 4rem;
   max-height: 4rem; */
   padding: var(--fs-200);
+  /* max-width: 4rem;
+  max-height: 4rem; */
+  padding: var(--fs-200);
 
 }
 
