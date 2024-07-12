@@ -9,3 +9,24 @@ navToggle.addEventListener("click", () => {
     primaryNav.toggleAttribute("data-visible");
     primaryHeader.toggleAttribute('data-overlay');
 });
+
+// const slider = new A11YSlider(document.querySelector('.slider'), {
+//     slidesToShow: 2,
+//     adaptiveHeight: false,
+//     dots: true,
+//     arrows: true,
+//     centerMode: true,
+//     responsive: {
+//         900: {
+//             dots: false, // dots enabled 1280px and up
+//             arrows: false
+//         }
+//     }
+
+
+// });
+
+
+// const slider = new A11YSlider(document.querySelector(".slider"), {
+//     slidesToShow: 3
+// });
