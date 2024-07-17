@@ -183,7 +183,7 @@ select {
   width: 100%;
   max-width: 100%;
   /* padding: 2% 5% 2% 5%; */
-  padding: 7vh;
+  padding: 2% 7%;
 }
 
 .primary-header[data-visible] {
@@ -460,12 +460,13 @@ select {
 }
 
 .score-text {
-  padding-left: var(--size-700);
+  /* padding-left: var(--size-700); */
+  height: 100%;
 }
 
 .score-header .fs-primary-heading {
   font-size: var(--size-800);
-  margin: var(--size-400) 0;
+  margin-top: var(--size-200);
 }
 
 .score-description {
@@ -488,17 +489,12 @@ select {
 
 .score-img {
   height: 100%;
-  width: 45%;
+  width: 100%;
   border-radius: 18px;
 }
 
 @media (max-width:65em) {
-  .score-section {
-    margin-top: 10rem;
-    padding: 15% 10%;
-    /* padding-top: 35%; */
 
-  }
 
   .score-div {
     display: flex;
@@ -512,7 +508,6 @@ select {
     height: 100%;
     width: 75%;
     border-radius: 18px;
-    margin-top: 5%;
   }
 }
 
@@ -521,7 +516,7 @@ select {
     /* height: 120%; */
     width: 75%;
     border-radius: 18px;
-    margin-top: 20%;
+    margin-top: 50%;
   }
 
   .score-header .fs-primary-heading {
@@ -570,6 +565,7 @@ select {
   align-items: center;
   text-align: center;
   padding: 2% 7%;
+  margin-top: 3%;
 }
 
 .choose-text {
@@ -581,10 +577,14 @@ select {
   background-color: var(--clr-primary-900);
   border-radius: 18px;
 
-  width: 15vw;
+  width: 23%;
   overflow: auto;
   text-align: left;
   padding: 2.5%;
+}
+
+.choose-description {
+  font-size: var(--fs-300);
 }
 
 .choose-heading {
@@ -595,11 +595,11 @@ select {
 
 .choose-card-heading {
   padding: 10% 0% 5% 0%;
-  font-size: var(--fs-300);
+  font-size: var(--fs-200);
 }
 
 .choose-card-description {
-  font-size: var(--fs-300);
+  font-size: var(--fs-200);
 }
 
 .choose-logo {
@@ -641,7 +641,7 @@ select {
   }
 
   .choose-card-description {
-    font-size: var(--fs-100);
+    font-size: var(--fs-200);
   }
 
   .choose-card {
@@ -727,11 +727,12 @@ select {
   align-items: center;
   font-size: var(--fs-100);
   padding: 2% 7%;
+  margin-top: 3%;
 }
 
 .residence-heading {
   margin-top: 3%;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
   font-size: var(--fs-800);
   line-height: 1.2;
 }
@@ -748,8 +749,8 @@ select {
   border-radius: 18px;
   background-color: var(--clr-primary-900);
   overflow: hidden;
-  width: 30rem;
-  height: 40rem;
+  width: 30%;
+  height: 35rem;
 }
 
 .residence-card-img {
@@ -765,8 +766,10 @@ select {
 .residence-name {
   display: flex;
   gap: .3rem;
+  font-size: 1.1rem;
   align-items: center;
-
+  margin-bottom: 2%;
+  text-align: start;
 }
 
 .residence-button {
@@ -806,7 +809,7 @@ select {
 
 .resi-detail-box {
   display: flex;
-  padding-left: 1%;
+  padding-left: 2%;
   justify-content: space-between;
   width: 80%;
 }
@@ -822,10 +825,18 @@ select {
 }
 
 .resi-detail-text {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 @media (max-width:90em) {
+
+  .residence-card {
+    border-radius: 18px;
+    background-color: var(--clr-primary-900);
+    overflow: hidden;
+    width: 30rem;
+    height: 35rem;
+  }
 
   .residence-card-2,
   .residence-card-3 {
@@ -875,7 +886,6 @@ select {
     background-color: var(--clr-primary-900);
     overflow: hidden;
     width: 25rem;
-    height: 30rem;
   }
 
   .residence-heading {
@@ -1008,6 +1018,7 @@ select {
   align-items: center;
   font-size: var(--fs-100);
   padding: 2% 7%;
+  margin-top: 3%;
 }
 
 .people-card {
@@ -1051,7 +1062,7 @@ select {
 }
 
 .people-heading-box {
-  width: 50rem;
+  width: 70rem;
   padding: 5%;
 }
 
@@ -1087,7 +1098,7 @@ select {
 
 @media (max-width:90em) {
   .people-heading {
-    font-size: var(--fs-500);
+    font-size: var(--fs-700);
     text-align: center;
   }
 
@@ -1141,12 +1152,12 @@ select {
   }
 
   .people-heading-box {
-    width: 30rem;
+    width: 50rem;
     padding: 5%;
   }
 
   .people-heading {
-    font-size: var(--fs-500);
+    font-size: var(--fs-700);
     text-align: center;
   }
 }
@@ -1195,7 +1206,7 @@ select {
   }
 
   .people-heading-box {
-    width: 30rem;
+    width: 20rem;
     padding: 5%;
   }
 
@@ -1215,7 +1226,7 @@ select {
 }
 
 .support-heading {
-  font-size: var(--fs-800);
+  font-size: var(--fs-700);
   line-height: 1.2;
   width: 60%;
   text-align: center;
@@ -1411,12 +1422,12 @@ footer {
 }
 
 .footer-heading {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .footer-text,
 .footer-description {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .footer-heading ul {
